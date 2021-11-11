@@ -6,7 +6,6 @@ def pinta_menu():
     print("2. RESTAR")
     print("3. MULTIPLICAR")
     print("4. DIVIDIR")
-    print("5. POTENCIACION")
 
 def manda_error():
     print("ELECCION ERRONEA, NO SE PUEDE DIVIDIR POR 0")
