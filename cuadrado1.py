@@ -2,7 +2,6 @@ def cuadrado1():
     linea=" "
     fil=" "
     num=input("dame un numero: ")
-    num=int(num)
     for fil in range(1,num+1):
         if(fil%2==1):
             letra="1"
