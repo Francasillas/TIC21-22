@@ -1,5 +1,5 @@
 def devuelve_mayor_10():
-    mayor=input("Introduce un numero: ")
+    mayor=0
     for cont in range(1,11):
         num=input("Introduce otro numero: ")
         if(num>mayor):
