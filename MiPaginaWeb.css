@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> MI PAGINA WEB </title>
+<style>
+body{
+background-color:rgb(49, 156, 170);
+<!--backgroung-image:url()-->
+font-family: Verdana;
+font-size:100%;
+}
+h1{
+color:green;
+text-align:center;
+font-family: courier;
+}
+h2{
+margin:15px;
+padding:15px;
+}
+h3{
+margin:15px;
+font-color:black;
+
+}
+p{
+font-family:verdana;
+color:pink;
+text-align:left;
+margin:20px;<!--este es el margen-->
+}
+a.button:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float:center;
+}
+
+a:hover, a:active {
+  background-color: blue;
+ }
+button{
+font-family:'Brush Script MT', bold;
+font-color:red
+font-size:100px;
+background-color:green;
+text-align:center;
+float:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+img{
+float:center;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="https://www.instagram.com/simeone/?hl=es">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<br></br>
+<h1>Esta es mi presentación</h1>
+<hr>
+<script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "VAMOS ALLÁ";
+  }
+  </script>
+</head>
+
+
+<body>
+<h3 id="demo">¿Quieres saber más de mi?</h3>
+<button type="button" onclick="myFunction()">PULSA AQUÍ</button>
+
+
+<p> ME LLAMO FRANCISCO CASILLAS</p>
+<h4> Adivina que deportes hago<h/4>
+<br> </br>
+
+
+<img src="https://cutt.ly/GF3HMw2" alt="deportes que hago" style="width:300;height:270;" usemap="#workmap">
+<map name="workmap">
+
+<area shape="circle" coords="54,52,42" alt="fútbol" href="file:///C:/Users/fcasi/OneDrive/Escritorio/2%C2%BABach/TIC/HTLM/FUTBOL.html">
+<area shape="circle" coords="166,164,42" alt="basket" href="file:///C:/Users/fcasi/OneDrive/Escritorio/2%C2%BABach/TIC/HTLM/baloncesto.html">
+<area shape="circle" coords="172,54,42" alt="golf" href="file:///C:/Users/fcasi/OneDrive/Escritorio/2%C2%BABach/TIC/CSS/golf2.html">
+<area shape="circle" coords="56,163,42" alt="tenis" href="file:///C:/Users/fcasi/OneDrive/Escritorio/2%C2%BABach/TIC/HTLM/TENIS.html">
+
+
+</map>
+
+<br></br>
+<p> Este es mi canal de youtube preferido</p>
+<a href="https://www.youtube.com/channel/UCMDSIUY5iJgRCd1ZiKA5ShA"><img src="https://n9.cl/tvpsg" alt="MI CANAL DE YOUTUBE PREFERIDO" style="width:70px;height:70px;">
+
+<style>
+table, th, td {
+  border:1px solid black;
+  border-collapse:collapse;
+  width:100%;
+}
+table {
+  font-family: arial,verdana;
+  border-collapse: collapse;
+  width: 400px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align:center;
+}
+th, td {
+  padding: 8px;
+
+}
+tr:nth-child(even){
+  background-color:SlateBlue;
+}
+tr:nth-child(odd){
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>MIS DATOS </h2>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Apellidos </th>
+<th>Edad</th>
+    <th>Altura</th>
+
+  </tr>
+  <tr>
+    <td>Francisco</td>
+    <td>CASILLAS</td>
+<td>17</td>
+    <td>1,76</td>
+  </tr>
+  <tr>
+   
+</table>
+
+</body>
+</html>
